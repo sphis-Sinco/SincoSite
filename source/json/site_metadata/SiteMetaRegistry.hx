@@ -5,7 +5,9 @@ package json.site_metadata;
  */
 class SiteMetaRegistry
 {
-    // the site version
+    /**
+     * the site version
+     */
     @:default(Application.current.meta.get('version'))
     public var version:String;
 
