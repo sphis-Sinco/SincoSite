@@ -1,6 +1,6 @@
 package main;
 
-class MainState extends FlxState
+class NavigationState extends FlxState
 {
 	override public function create()
 	{
