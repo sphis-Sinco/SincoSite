@@ -15,7 +15,16 @@ class PageData
     * the page objects (i.e a textField or a button, maybe an image)
     */
     @:default([])
-    public var objects:String;
+    public var objects:Array<Dynamic>;
+
+	/**
+	 * Load/Create PageData
+	 */
+	public function new(title:String, objects:Array<Dynamic>)
+	{
+		this.title = title;
+		this.objects = objects;
+	}
 
 	/**
 	 * Produces a string representation suitable for debugging.
