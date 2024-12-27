@@ -7,5 +7,8 @@ import flixel.tweens.*;
 import flixel.tweens.misc.*;
 import flixel.tweens.motion.*;
 import flixel.util.*;
+import json.*;
+import json.pages.*;
+import json.site_metadata.*;
 import lime.app.Application;
 import main.*;
