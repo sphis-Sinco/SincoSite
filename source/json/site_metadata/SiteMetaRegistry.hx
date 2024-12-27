@@ -1,12 +1,18 @@
 package json.site_metadata;
 
+/**
+ *  json data containing information on the site
+ */
 class SiteMetaRegistry
 {
     // the site version
     public var version:String = Application.current.meta.get('version');
 
-    public function new()
+    /**
+     * Produces a string representation suitable for debugging.
+    */
+    public function toString()
     {
-        trace('new SiteMetaRegistry()');
+        return 'SiteMetaRegistry(version: ${this.version})';
     }
 }
