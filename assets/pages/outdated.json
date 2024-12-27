@@ -3,9 +3,11 @@
     "objects": [
         {
             "type": "TextField",
-            "text": "You are running an outdated version of the site!\n\nPlease update now by going to the Github Repository",
+            "textField": {
+                "text": "You are running an outdated version of the site!\n\nPlease update now by going to the Github Repository",
+                "alignment": "center"
+            },
             "position": [0,0],
-            "alignment": "center",
             "screenCenter": true
         }
     ]
