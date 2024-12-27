@@ -1,11 +1,11 @@
 package main;
 
-class NavigationState extends PageBase
+class OutdatedState extends PageBase
 {
     override public function new() {
         super('outdated');
     }
-	
+
 	override public function create()
 	{
 		super.create();

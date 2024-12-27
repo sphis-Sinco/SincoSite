@@ -61,4 +61,22 @@ class PageObjects
 	@:optional
 	@:default(false)
 	public var screenCenter:Bool;
+
+	/**
+	 * Produces a string representation suitable for debugging.
+	 */
+	public function toString()
+	{
+		var stringRep:String = 'PageObjects(type: ${this.type}';
+
+		switch (this.type.toLowerCase())
+		{
+			case 'textfield':
+				stringRep += ', textField: ${this.textField}';
+		}
+
+		stringRep += ')';
+
+		return stringRep;
+	}
 }
