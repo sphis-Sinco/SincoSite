@@ -1,4 +1,4 @@
-package;
+package main;
 
 class MainState extends FlxState
 {

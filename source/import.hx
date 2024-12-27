@@ -7,4 +7,5 @@ import flixel.tweens.*;
 import flixel.tweens.misc.*;
 import flixel.tweens.motion.*;
 import flixel.util.*;
+import lime.app.Application;
 import main.*;
