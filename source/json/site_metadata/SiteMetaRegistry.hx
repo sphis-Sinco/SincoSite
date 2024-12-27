@@ -6,7 +6,8 @@ package json.site_metadata;
 class SiteMetaRegistry
 {
     // the site version
-    public var version:String = Application.current.meta.get('version');
+    @:default(Application.current.meta.get('version'))
+    public var version:String;
 
     /**
      * Produces a string representation suitable for debugging.
